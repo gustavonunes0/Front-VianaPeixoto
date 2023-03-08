@@ -7,12 +7,6 @@ export const SobreBannerContainer = styled.div`
   grid-template-columns: 87.5rem;
   justify-content: center;
   margin: 8rem 0rem;
-<<<<<<< Updated upstream
-`;
-
-export const SobreBanner = styled.img`
-  width: 100%;
-=======
   @media screen and (max-width: 600px) {
     gris-template-columns: 100%;
     margin: 4rem 0rem;
@@ -50,5 +44,4 @@ export const LegendaMapa = styled.img`
     width: 25%;
     justify-self: center;
   }
->>>>>>> Stashed changes
 `;
