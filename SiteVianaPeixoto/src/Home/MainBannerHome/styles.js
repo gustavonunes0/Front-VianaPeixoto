@@ -15,7 +15,7 @@ export const ConteudoProvisorio = styled.div`
   color: #c2c6d3;
   line-height: 3rem;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     font-size: 2.2rem;
   }
 `;
@@ -28,7 +28,7 @@ export const TextoSecundario = styled.div`
   font-family: 'Titillium Web';
   color: #c2c6d3;
   line-height: 1.5rem;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     font-size: 1.5rem;
   }
 `;
@@ -50,7 +50,7 @@ export const Botao = styled.button`
     color: #F6F6F6;        
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     width: 50%;
   }
 `;

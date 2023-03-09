@@ -4,7 +4,7 @@ export const InMemorianContainer = styled.div`
   display: flex;
   justify-content: "space-evenly";
   flex-wrap: wrap;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     display:grid;
     gris-template-columns: 1fr;
   }
@@ -15,7 +15,7 @@ export const IMContent = styled.div`
   height: 100%;
   margin: auto;
   display: flex;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     display:grid;
     gris-template-columns: 1fr;
   }
@@ -28,7 +28,7 @@ export const IMContentleft = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0rem 12rem;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
     padding: 0%;
   }
@@ -39,7 +39,7 @@ export const IMContentRight = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
   }
 `;
@@ -55,7 +55,7 @@ export const Titulo = styled.div`
   font-family: 'Titillium Web';
   color: #000;
   line-height: 3rem;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     font-size: 2.5rem;
     padding: 3rem 2rem;
   }
@@ -69,7 +69,7 @@ export const TextoSecundario = styled.div`
   font-family: 'Titillium Web';
   color: #000;
   line-height: 1.5rem;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     font-size: 1.2rem;
   }
 `;

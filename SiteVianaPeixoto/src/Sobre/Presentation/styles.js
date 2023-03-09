@@ -34,7 +34,7 @@ export const PresentationPartnersBox = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     display:grid;
     gris-template-columns: 1fr;
     justify-content: center;

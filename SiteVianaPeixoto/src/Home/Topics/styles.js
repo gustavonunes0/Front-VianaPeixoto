@@ -6,7 +6,7 @@ export const Container = styled.div`
   background-color: #6c808c;
   padding: 0rem 5rem 0rem 10rem;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     grid-template-columns: 1fr;
     padding: 20% 10% 0% 10%;
   }
@@ -31,7 +31,7 @@ export const IconTitle = styled.div`
   color: #fff;
   line-height: 3rem;
   white-space: nowrap;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     font-size: 1.5rem;
   }
 `;
@@ -42,7 +42,7 @@ export const TopicText = styled.div`
   color: #fff;
   line-height: 1.5rem;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     font-size:1.5rem;
   }
 `;

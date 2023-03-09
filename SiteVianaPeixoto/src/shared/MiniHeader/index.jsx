@@ -21,9 +21,15 @@ const Header = () => {
           </S.MiniMenu>
         </S.BoxSetor1>
         <S.BoxSetor2>
+        <Link to="https://www.instagram.com/vianapeixotoadvogados/" target="_blank">
           <S.LogoSocials src={instagram} alt="Logo" />
+        </Link>
+        <Link to="https://www.facebook.com/VianaPeixotoAdv" target="_blank">
           <S.LogoSocials src={facebook} alt="Logo" />
+        </Link>
+        <Link to="https://www.linkedin.com/company/viana-peixoto-advogados-associados/mycompany/" target="_blank">
           <S.LogoSocials src={linkedin} alt="Logo" />
+        </Link>
         </S.BoxSetor2>
       </S.MiniHeaderBox>
     </S.MiniHeaderContainer>

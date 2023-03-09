@@ -23,22 +23,15 @@ export const HeaderContainer = styled.header`
 `;
 
 export const HeaderBox = styled.div`
-  /* width: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; */
-
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
 export const Logo = styled.img`
-  /* width: 9rem;
-  margin-left: 12.5%; */
-
   width: 9rem;
+  margin-left: 12.5%;
 `;
 
 export const Menu = styled.nav`

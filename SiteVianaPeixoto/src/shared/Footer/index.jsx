@@ -31,9 +31,15 @@ const Footer = () => {
           <S.FooterSubmenuTitle>CONECTE-SE CONOSCO</S.FooterSubmenuTitle>
 
           <S.FooterSubmenuItem>
-            <S.FooterSubmenuSocialMedia src={instagramIcon} />
-            <S.FooterSubmenuSocialMedia src={facebookIcon} />
-            <S.FooterSubmenuSocialMedia src={linkedinIcon} />
+            <a href="https://www.instagram.com/vianapeixotoadvogados/" target="_blank">
+              <S.FooterSubmenuSocialMedia src={instagramIcon} />
+            </a>
+            <a href="https://www.facebook.com/VianaPeixotoAdv" target="_blank">
+              <S.FooterSubmenuSocialMedia src={facebookIcon} />
+            </a>
+            <a href="https://www.linkedin.com/company/viana-peixoto-advogados-associados/mycompany/" target="_blank">
+              <S.FooterSubmenuSocialMedia src={linkedinIcon} />
+            </a>
           </S.FooterSubmenuItem>
         </S.FooterSubmenu>
       </S.FooterBox>

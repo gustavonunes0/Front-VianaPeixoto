@@ -24,6 +24,9 @@ export const BoxSetor2 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media only screen and (max-width: 800px) {
+    margin-left: -3.5%;
+  }
 `;
 
 export const LogoIcons = styled.img`
@@ -37,7 +40,9 @@ export const LogoSocials = styled.img`
 
 export const MiniMenu = styled.nav`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  @media only screen and (max-width: 800px) {
+  }
 `;
 
 export const MiniMenuItem = styled.div`
@@ -47,5 +52,10 @@ export const MiniMenuItem = styled.div`
   text-decoration: none;
   &:hover {
     font-weight: bold;
+  }
+  @media only screen and (max-width: 800px) {
+    font-size: 0.65rem;
+    white-space: nowrap;
+    padding-right: 1rem;
   }
 `;

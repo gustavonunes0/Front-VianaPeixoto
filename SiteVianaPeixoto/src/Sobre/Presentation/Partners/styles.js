@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PartnersContainer = styled.div`
   width: 23rem;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
     padding-bottom: 15%;
   }
@@ -28,7 +28,7 @@ export const PartnersInfo = styled.div`
 export const PartnersInfoName = styled.span`
   font-size: 1.9rem;
   font-weight: 400;
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     font-size: 1.6rem;
   }
 `;
