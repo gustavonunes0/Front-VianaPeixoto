@@ -17,7 +17,7 @@ const Header = () => {
           </S.MiniMenu>
           <S.MiniMenu>
             <S.LogoIcons src={"/fotos/email.svg"} alt="Logo" />
-            <S.MiniMenuItem><Link to="/sobre" style={{ textDecoration: 'none', color: '#edeeed' }}>contato@vianapeicoto.com.br</Link></S.MiniMenuItem>
+            <S.MiniMenuItem><Link to="/sobre" style={{ textDecoration: 'none', color: '#edeeed' }}>contato@vianapeixoto.com.br</Link></S.MiniMenuItem>
           </S.MiniMenu>
         </S.BoxSetor1>
         <S.BoxSetor2>
