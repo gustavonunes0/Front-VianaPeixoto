@@ -32,13 +32,13 @@ const Footer = () => {
 
           <S.FooterSubmenuItem>
             <a href="https://www.instagram.com/vianapeixotoadvogados/" target="_blank">
-              <S.FooterSubmenuSocialMedia src={"/fotos/instagramicon.svg"} />
+              <S.FooterSubmenuSocialMedia src={"/fotos/instagramIcon.svg"} />
             </a>
             <a href="https://www.facebook.com/VianaPeixotoAdv" target="_blank">
-              <S.FooterSubmenuSocialMedia src={"/fotos/facebookicon.svg"} />
+              <S.FooterSubmenuSocialMedia src={"/fotos/facebookIcon.svg"} />
             </a>
             <a href="https://www.linkedin.com/company/viana-peixoto-advogados-associados/mycompany/" target="_blank">
-              <S.FooterSubmenuSocialMedia src={"/fotos/linkedinicon.svg"} />
+              <S.FooterSubmenuSocialMedia src={"/fotos/linkedinIcon.svg"} />
             </a>
           </S.FooterSubmenuItem>
         </S.FooterSubmenu>
