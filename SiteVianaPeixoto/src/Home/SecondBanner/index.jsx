@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import fotoSocios from "../../assets/images/Socios.jpeg";
+// import fotoSocios from "../../assets/images/Socios.jpeg";
 import { Link } from "react-router-dom";
 
 
@@ -23,7 +23,7 @@ const InMemorian = ({ scrollToTop }) => {
                     </S.Titulo>
                 </S.IMContentleft>
                 <S.IMContentRight>
-                    <S.ImagemSocios src={fotoSocios} />
+                    <S.ImagemSocios src={"/fotos/Socios.jpeg"} />
                 </S.IMContentRight>
             </S.IMContent>
         </S.InMemorianContainer>

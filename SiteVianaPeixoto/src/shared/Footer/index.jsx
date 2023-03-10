@@ -1,14 +1,14 @@
-import * as S from "./styles";
-import footerLogo from "../../assets/images/footerLogo.svg";
-import instagramIcon from "../../assets/images/instagramIcon.svg";
-import facebookIcon from "../../assets/images/facebookIcon.svg";
-import linkedinIcon from "../../assets/images/linkedinIcon.svg";
+// import * as S from "./styles";
+// import footerLogo from "../../assets/images/footerLogo.svg";
+// import instagramIcon from "../../assets/images/instagramIcon.svg";
+// import facebookIcon from "../../assets/images/facebookIcon.svg";
+// import linkedinIcon from "../../assets/images/linkedinIcon.svg";
 
 const Footer = () => {
   return (
     <S.Footer>
       <S.FooterBox>
-        <S.FooterCompanyInfoIcon src={footerLogo} alt="logo" />
+        <S.FooterCompanyInfoIcon src={"/fotos/footerLogo.svg"} alt="logo" />
 
         <S.FooterSubmenu>
           <S.FooterSubmenuTitle>SERVIÇOS</S.FooterSubmenuTitle>
@@ -32,13 +32,13 @@ const Footer = () => {
 
           <S.FooterSubmenuItem>
             <a href="https://www.instagram.com/vianapeixotoadvogados/" target="_blank">
-              <S.FooterSubmenuSocialMedia src={instagramIcon} />
+              <S.FooterSubmenuSocialMedia src={"/fotos/instagramicon.svg"} />
             </a>
             <a href="https://www.facebook.com/VianaPeixotoAdv" target="_blank">
-              <S.FooterSubmenuSocialMedia src={facebookIcon} />
+              <S.FooterSubmenuSocialMedia src={"/fotos/facebookicon.svg"} />
             </a>
             <a href="https://www.linkedin.com/company/viana-peixoto-advogados-associados/mycompany/" target="_blank">
-              <S.FooterSubmenuSocialMedia src={linkedinIcon} />
+              <S.FooterSubmenuSocialMedia src={"/fotos/linkedinicon.svg"} />
             </a>
           </S.FooterSubmenuItem>
         </S.FooterSubmenu>

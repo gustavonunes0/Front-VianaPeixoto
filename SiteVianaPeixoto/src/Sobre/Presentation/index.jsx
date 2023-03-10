@@ -1,8 +1,8 @@
 import Partners from "./Partners";
 import * as S from "./styles";
-import DavidSombra from "../../assets/images/DavidSombra.png";
-import JoaoPaulo from "../../assets/images/JoaoPaulo.png";
-import JoseLuiz from "../../assets/images/JoseLuis.png";
+// import DavidSombra from "../../assets/images/DavidSombra.png";
+// import JoaoPaulo from "../../assets/images/JoaoPaulo.png";
+// import JoseLuiz from "../../assets/images/JoseLuis.png";
 
 const Presentation = () => {
   return (
@@ -38,17 +38,17 @@ const Presentation = () => {
 
         <S.PresentationPartnersBox>
           <Partners
-            image={DavidSombra}
+            image={"/fotos/DavidSombra.png"}
             name="David Sombra Peixoto"
             position="Diretor Presidente"
           />
           <Partners
-            image={JoaoPaulo}
+            image={"/fotos/JoaoPaulo.png"}
             name="João Paulo Sombra Peixoto"
             position="Diretor Comercial"
           />
           <Partners
-            image={JoseLuiz}
+            image={"/fotos/JoseLuis.png"}
             name="José Luís Melo Garcia"
             position="Diretor Financeiro"
           />
