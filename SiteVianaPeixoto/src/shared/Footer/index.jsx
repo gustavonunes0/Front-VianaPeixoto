@@ -1,4 +1,4 @@
-// import * as S from "./styles";
+import * as S from "./styles";
 // import footerLogo from "../../assets/images/footerLogo.svg";
 // import instagramIcon from "../../assets/images/instagramIcon.svg";
 // import facebookIcon from "../../assets/images/facebookIcon.svg";

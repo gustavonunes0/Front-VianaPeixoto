@@ -1,15 +1,15 @@
-import { PartnersContainer, PartnersImg, PartnersInfo, PartnersInfoName, PartnersInfoPosition } from './styles.js';
+import * as S from "./styles";
 
 const Partners = ({ image, name, position }) => {
   return (
     <>
-      <PartnersContainer>
-        <PartnersImg src={image} alt="partner" />
-        <PartnersInfo>
-          <PartnersInfoName>{name}</PartnersInfoName>
-          <PartnersInfoPosition>{position}</PartnersInfoPosition>
-        </PartnersInfo>
-      </PartnersContainer>
+      <S.PartnersContainer>
+        <S.PartnersImg src={image} alt="partner" />
+        <S.PartnersInfo>
+          <S.PartnersInfoName>{name}</S.PartnersInfoName>
+          <S.PartnersInfoPosition>{position}</S.PartnersInfoPosition>
+        </S.PartnersInfo>
+      </S.PartnersContainer>
     </>
   );
 };
