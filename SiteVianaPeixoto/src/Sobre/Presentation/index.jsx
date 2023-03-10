@@ -1,5 +1,5 @@
 import Partners from "./Partners";
-import { PresentationBox, PresentationContainer, PresentationParag, PresentationPartnersBox, PresentationTitle } from "./styles";
+import { PresentationBox, PresentationContainer, PresentationParag, PresentationPartnersBox, PresentationTitle } from "./styles.js";
 // import DavidSombra from "../../assets/images/DavidSombra.png";
 // import JoaoPaulo from "../../assets/images/JoaoPaulo.png";
 // import JoseLuiz from "../../assets/images/JoseLuipng";

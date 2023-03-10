@@ -1,4 +1,4 @@
-import { PartnersContainer, PartnersImg, PartnersInfo, PartnersInfoName, PartnersInfoPosition } from './stylejs';
+import { PartnersContainer, PartnersImg, PartnersInfo, PartnersInfoName, PartnersInfoPosition } from './styles.js';
 
 const Partners = ({ image, name, position }) => {
   return (
