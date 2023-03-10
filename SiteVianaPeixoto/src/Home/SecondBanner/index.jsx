@@ -9,18 +9,15 @@ const InMemorian = ({ scrollToTop }) => {
             <S.IMContent>
                 <S.IMContentleft>
                     <S.Titulo>
-                        Por quê você deve<br />nos escolher?
+                        <p>Por quê você deve<br />nos escolher?</p>
                         <S.TextoSecundario>
-                            Aqui vai texto persuasivo. Lorem ipsum dolor sit
-                            amet, consectetur adipiscing elit. Aliquam pharetra
-                            laoreet orci quis scelerisque. Pellentesque ac leo
-                            eget neque hendrerit consectetur. Ut non felis lectus.
-                            Aenean ac quam lorem. Etiam pulvinar mauris leo,
-                            cursus pretium nunc tempus eu.
+                            <p>Nosso escritório possui tradição no mercado, reputação ilibada, expertise nas mais diversas áreas do Direito e o melhor atendimento aos nossos clientes.</p>
+                            <p>Somos uma empresa que leva em consideração o contato com as pessoas, sobretudo através de uma comunicação clara e capaz de integrar as mais variadas demandas.</p>
+                            <p>Se você e sua empresa prezam por atenção, respeito e celeridade, entre em contato com um de nossos advogados.</p>
                         </S.TextoSecundario>
                         <S.Botao>
-                            <Link to="/sobre"  onClick={scrollToTop} style={{ textDecoration: 'none', color: '#000' }}>
-                            Sobre nós
+                            <Link to="/sobre" onClick={scrollToTop} style={{ textDecoration: 'none', color: '#000' }}>
+                                Sobre nós
                             </Link>
                         </S.Botao>
                     </S.Titulo>

@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import instagram from "../../assets/images/instagramicon.svg";
+import instagram from "../../../public/instagramicon.svg";
 import facebook from "../../assets/images/facebookicon.svg";
 import linkedin from "../../assets/images/linkedinicon.svg";
 import telefone from "../../assets/images/telefone.svg";

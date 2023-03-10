@@ -8,7 +8,7 @@ import LegendaMapa from "../../assets/images/legendaMapa.svg";
 const MainBanner = () => {
   return (
     <S.SobreBannerContainer>
-      <S.SobreBanner src={mainBanner} alt="Sobre banner" />
+      <p><S.SobreBanner src={mainBanner} alt="Sobre banner" /></p>
       <S.OndeEstamos src={OndeEstamos}/>
       <S.Mapa src={Mapa}/>
       <S.LegendaMapa src={LegendaMapa}/>

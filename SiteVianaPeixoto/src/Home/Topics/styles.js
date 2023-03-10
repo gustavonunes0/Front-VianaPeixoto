@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 800px) {
     grid-template-columns: 1fr;
-    padding: 20% 10% 0% 10%;
+    padding: 20% 10% 30% 10%;
   }
 `;
 
@@ -22,6 +22,21 @@ export const Content = styled.div`
 
   &:hover{
     background-color: #472e8d;
+  }
+`;
+export const ContentFirst = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: -25%;
+  padding: 25% 10% 10% 10%;
+
+  &:hover{
+    background-color: #472e8d;
+  }
+  @media screen and (max-width: 800px) {
+    padding: 10% 10% 0% 10%;
   }
 `;
 export const IconTitle = styled.div`
@@ -49,4 +64,12 @@ export const TopicText = styled.div`
 export const IconTopics = styled.img`
   height:10%; 
   align-self: start;
+`;
+export const IconTopics2 = styled.img`
+  height:10%; 
+  align-self: start;
+  
+@media screen and (max-width: 800px) {
+  height:20%; 
+  }
 `;

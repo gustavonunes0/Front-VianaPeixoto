@@ -8,24 +8,24 @@ import { Link } from "react-router-dom";
 const Topics = ({ scrollToTop }) => {
     return (
         <S.Container>
-            <S.Content>
+            <S.ContentFirst>
                 <Link to="/sobre"  onClick={scrollToTop} style={{ textDecoration: 'none', color: '#8d9ebc' }}>
                     <S.IconTopics src={icon2} />
-                    <S.IconTitle>QUEM SOMOS</S.IconTitle>
-                    <S.TopicText>Somos um escritório de advocacia que identifica as necessidades dos clientes e desenvolve soluções jurídicas personalizadas.
-                        Trabalhamos com a máxima qualidade, pautados na ética, disponibilidade integral, eficiência e agilidade.</S.TopicText>
+                    <S.IconTitle><p>QUEM SOMOS</p></S.IconTitle>
+                    <S.TopicText><p>Somos um escritório de advocacia que identifica as necessidades dos clientes e desenvolve soluções jurídicas personalizadas.
+                        Trabalhamos com a máxima qualidade, pautados na ética, disponibilidade integral, eficiência e agilidade.</p></S.TopicText>
                 </Link>
-            </S.Content>
+            </S.ContentFirst>
             <S.Content>
                 <S.IconTopics src={icon1} />
-                <S.IconTitle>ESPECIALIDADES</S.IconTitle>
-                <S.TopicText>No rol de especialidades jurídicas, atuamos em diversas áreas do Direito. São elas: Direito Administrativo; Direito Civil; Direito Comercial; Direito do Trabalho e Processual Trabalhista; Direito Imobiliário; Direito Penal; Direito Previdenciário; Direito Tributário, Ambiental, Internacional.
-                    Temos também expertise em recuperação de crédito, seja no âmbito judicial ou extrajudicial.</S.TopicText>
+                <S.IconTitle><p>ESPECIALIDADES</p></S.IconTitle>
+                <S.TopicText><p>No rol de especialidades jurídicas, atuamos em diversas áreas do Direito. São elas: Direito Administrativo; Direito Civil; Direito Comercial; Direito do Trabalho e Processual Trabalhista; Direito Imobiliário; Direito Penal; Direito Previdenciário; Direito Tributário, Ambiental, Internacional.
+                    Temos também expertise em recuperação de crédito, seja no âmbito judicial ou extrajudicial.</p></S.TopicText>
             </S.Content>
             <S.Content>
-                <S.IconTopics src={icon3} />
-                <S.IconTitle>EQUIPE</S.IconTitle>
-                <S.TopicText>Contamos com uma equipe formada por profissionais multidisciplinares prontos para melhor defender nossos clientes.</S.TopicText>
+                <S.IconTopics2 src={icon3} />
+                <S.IconTitle><p>EQUIPE</p></S.IconTitle>
+                <S.TopicText><p>Contamos com uma equipe formada por profissionais multidisciplinares prontos para melhor defender nossos clientes.</p></S.TopicText>
             </S.Content>
         </S.Container>
     );
