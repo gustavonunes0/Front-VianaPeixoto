@@ -4,11 +4,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./Home";
 import Sobre from "./Sobre";
+import Equipe from "./Equipe";
 
 const router = createBrowserRouter([
   { path: "*", element: <Home /> },
   { path: "/sobre", element: <Sobre /> },
-  { path: "/equipe", element: <Sobre /> },
+  { path: "/equipe", element: <Equipe /> },
   { path: "/especialidades", element: <Sobre /> },
   { path: "/imprensa", element: <Sobre /> },
   { path: "/contato", element: <Sobre /> },

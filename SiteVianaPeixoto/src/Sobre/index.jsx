@@ -10,9 +10,9 @@ const Sobre = () => {
     <>
       <MiniHeader />
       <Header />
-      <MainBanner />
-      <Presentation />
       <InMemorian />
+      <Presentation />
+      <MainBanner />
       <Footer />
     </>
   );

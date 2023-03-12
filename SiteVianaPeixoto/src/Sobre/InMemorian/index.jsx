@@ -8,7 +8,7 @@ const InMemorian = () => {
       <S.IMContent>
         <S.IMContentleft />
         <S.IMContentRight>
-          <S.IMContentTitle>In Memorian</S.IMContentTitle>
+          <S.IMContentTitle>História</S.IMContentTitle>
 
           <S.IMContentParag>
             Fundada pelo Advogado Miguel Oscar Viana Peixoto (in memoriam), a
