@@ -5,12 +5,13 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
 import Sobre from "./Sobre";
 import Equipe from "./Equipe";
+import Especialidades from "./Especialidades";
 
 const router = createBrowserRouter([
   { path: "*", element: <Home /> },
   { path: "/sobre", element: <Sobre /> },
   { path: "/equipe", element: <Equipe /> },
-  { path: "/especialidades", element: <Sobre /> },
+  { path: "/especialidades", element: <Especialidades /> },
   { path: "/imprensa", element: <Sobre /> },
   { path: "/contato", element: <Sobre /> },
 ]);

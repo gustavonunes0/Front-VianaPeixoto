@@ -10,17 +10,17 @@ const Presentation = () => {
           <Partners
             image={"/fotos/DavidSombra.png"}
             name="David Sombra Peixoto"
-            position="Diretor Presidente"
+            position="Diretor"
           />
           <Partners
             image={"/fotos/JoaoPaulo.png"}
             name="João Paulo Sombra Peixoto"
-            position="Diretor Comercial"
+            position="Diretor"
           />
           <Partners
             image={"/fotos/JoseLuis.png"}
             name="José Luís Melo Garcia"
-            position="Diretor Financeiro"
+            position="Diretor"
           />
         </S.PresentationPartnersBox>
       <div style={{margin: '10% 0% 0% 0%'}}>
@@ -41,19 +41,6 @@ ut arcu. "
           />
           <Partners2
             image={"/fotos/Socio5.jpg"}
-            name="Francisco Sena"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie risus cursus ipsum commodo
-bibendum. Morbi vitae tellus in erat rhoncus blandit sed sed mi. Aliquam sit amet urna varius, vestibulum leo sed, iaculis orci. Etiam commodo mollis nunc, eu dapibus nisi vulputate non. Sed luctus scelerisque magna, eget consectetur urna pellentesque ut. Nullam suscipit magna sit amet ex iaculis mattis.
-Suspendisse molestie ligula turpis, id finibus nulla posuere id. Fusce rhoncus varius elit quis semper.
-Sed justo purus, eleifend finibus lacus sed, tempor cursus turpis. Nam non pretium urna, vel semper
-sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus massa sed semper.
-Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
-Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
-ut arcu. "
-            email="email@vianapeixoto.com.br"
-          />
-          <Partners2
-            image={"/fotos/Socio4.jpg"}
             name="Mayara Lima"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie risus cursus ipsum commodo
 bibendum. Morbi vitae tellus in erat rhoncus blandit sed sed mi. Aliquam sit amet urna varius, vestibulum leo sed, iaculis orci. Etiam commodo mollis nunc, eu dapibus nisi vulputate non. Sed luctus scelerisque magna, eget consectetur urna pellentesque ut. Nullam suscipit magna sit amet ex iaculis mattis.
@@ -66,7 +53,20 @@ ut arcu. "
             email="email@vianapeixoto.com.br"
           />
           <Partners2
+            image={"/fotos/Socio4.jpg"}
             name="Nathalia Dantas"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie risus cursus ipsum commodo
+bibendum. Morbi vitae tellus in erat rhoncus blandit sed sed mi. Aliquam sit amet urna varius, vestibulum leo sed, iaculis orci. Etiam commodo mollis nunc, eu dapibus nisi vulputate non. Sed luctus scelerisque magna, eget consectetur urna pellentesque ut. Nullam suscipit magna sit amet ex iaculis mattis.
+Suspendisse molestie ligula turpis, id finibus nulla posuere id. Fusce rhoncus varius elit quis semper.
+Sed justo purus, eleifend finibus lacus sed, tempor cursus turpis. Nam non pretium urna, vel semper
+sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus massa sed semper.
+Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
+Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
+ut arcu. "
+            email="email@vianapeixoto.com.br"
+          />
+          <Partners2
+            name="Francisco Sena"
             image={"/fotos/Socio3.jpg"}
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie risus cursus ipsum commodo
 bibendum. Morbi vitae tellus in erat rhoncus blandit sed sed mi. Aliquam sit amet urna varius, vestibulum leo sed, iaculis orci. Etiam commodo mollis nunc, eu dapibus nisi vulputate non. Sed luctus scelerisque magna, eget consectetur urna pellentesque ut. Nullam suscipit magna sit amet ex iaculis mattis.
@@ -106,7 +106,7 @@ ut arcu. "
           />
           <Partners2
             image={"/fotos/Socio7.jpg"}
-            name="Jéssica"
+            name="Priscila de Souza Feitosa"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie risus cursus ipsum commodo
 bibendum. Morbi vitae tellus in erat rhoncus blandit sed sed mi. Aliquam sit amet urna varius, vestibulum leo sed, iaculis orci. Etiam commodo mollis nunc, eu dapibus nisi vulputate non. Sed luctus scelerisque magna, eget consectetur urna pellentesque ut. Nullam suscipit magna sit amet ex iaculis mattis.
 Suspendisse molestie ligula turpis, id finibus nulla posuere id. Fusce rhoncus varius elit quis semper.
