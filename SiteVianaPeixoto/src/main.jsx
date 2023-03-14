@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
 import Sobre from "./Sobre";
 import Equipe from "./Equipe";
-import Contato from "./ContatoScreen";
+import ContatoScreen from "./ContatoScreen/Index.jsx";
 import Especialidades from "./Especialidades";
 import Dashboard from "./Dashboard";
 
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
   { path: "/equipe", element: <Equipe /> },
   { path: "/especialidades", element: <Especialidades /> },
   { path: "/imprensa", element: <Sobre /> },
-  { path: "/contato", element: <Contato /> },
+  { path: "/contato", element: <ContatoScreen /> },
   { path: "/dashboard", element: <Dashboard /> },
 ]);
 
