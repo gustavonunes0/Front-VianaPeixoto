@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
 import Sobre from "./Sobre";
 import Equipe from "./Equipe";
-import Contato from "./Contato";
+import Contato from "./ContatoScreen";
 import Especialidades from "./Especialidades";
 import Dashboard from "./Dashboard";
 
