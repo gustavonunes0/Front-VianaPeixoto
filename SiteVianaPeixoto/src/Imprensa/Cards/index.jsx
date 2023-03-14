@@ -1,6 +1,6 @@
 import * as S from "./styles";
 
-const Cards = ({ foto, title, text1, text2, text3}) => {
+const Cards = ({ foto, title, text1}) => {
     return (<>
         <S.CardsContainer>
             <S.CardsInfo>
