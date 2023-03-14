@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home";
 import Sobre from "./Sobre";
 import Equipe from "./Equipe";
-import ContatoScreen from "./ContatoScreen/Index.jsx";
+import ContatoScreen from "./ContatoScreen";
 import Especialidades from "./Especialidades";
 import Dashboard from "./Dashboard";
 
