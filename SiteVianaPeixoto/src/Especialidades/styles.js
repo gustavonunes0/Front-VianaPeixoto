@@ -18,4 +18,7 @@ export const Titulo = styled.span`
   color: #472e8d;
   font-size: 4.5rem;
   font-weight: 1000;
+  @media screen and (max-width: 800px) {
+    font-size: 3rem;
+  }
 `;

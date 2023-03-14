@@ -6,6 +6,7 @@ import Home from "./Home";
 import Sobre from "./Sobre";
 import Equipe from "./Equipe";
 import Especialidades from "./Especialidades";
+import Contato from "./Contato";
 import Dashboard from "./Dashboard";
 
 const router = createBrowserRouter([
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
   { path: "/equipe", element: <Equipe /> },
   { path: "/especialidades", element: <Especialidades /> },
   { path: "/imprensa", element: <Sobre /> },
-  { path: "/contato", element: <Sobre /> },
+  { path: "/contato", element: <Contato /> },
   { path: "/dashboard", element: <Dashboard /> },
 ]);
 

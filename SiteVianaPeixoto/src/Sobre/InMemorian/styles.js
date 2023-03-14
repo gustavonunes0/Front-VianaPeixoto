@@ -43,15 +43,15 @@ export const IMContent = styled.div`
     width: 100%;
   }
   @media screen and (max-width: 600px) {
-    margin-top: 0;
-    margin-bottom: 60%;
+    margin-top: -20%;
+    margin-bottom: 35%;
     display:grid;
     gris-template-columns: 1fr;
     width: 100%;
   }
   @media screen and (max-width: 400px) {
-    margin-top: 0;
-    margin-bottom: 85%;
+    margin-top: -20%;
+    margin-bottom: 55%;
     display:grid;
     gris-template-columns: 1fr;
     width: 100%;

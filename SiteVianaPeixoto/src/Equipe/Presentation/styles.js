@@ -57,7 +57,10 @@ export const Titulo = styled.div`
   font-size: 4rem;
   font-weight: 800;
   color: #50358f;
+  @media screen and (max-width: 1000px) {
+    font-size: 4rem;
+  }
   @media screen and (max-width: 800px) {
-    font-size: 1.6rem;
+    font-size: 3rem;
   }
 `;
