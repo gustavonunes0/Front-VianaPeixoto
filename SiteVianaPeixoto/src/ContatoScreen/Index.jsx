@@ -3,7 +3,7 @@ import Header from "../shared/Header";
 import MiniHeader from "../shared/MiniHeader";
 import FaleConosco from "./FaleConosco";
 
-const Contato = () => {
+const ContatoScreen = () => {
   return (
     <>
       <MiniHeader />
@@ -14,5 +14,5 @@ const Contato = () => {
   );
 };
 
-export default Contato;
+export default ContatoScreen;
 
