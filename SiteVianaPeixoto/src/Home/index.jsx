@@ -7,6 +7,7 @@ import SecondBanner from "./SecondBanner";
 import React, { useRef } from "react";
 
 const Home = () => {
+  
   const topRef = useRef(null);
 
   const scrollToTop = () => {

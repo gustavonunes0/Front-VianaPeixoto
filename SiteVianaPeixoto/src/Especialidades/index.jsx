@@ -7,6 +7,8 @@ import * as S from "./styles";
 
 
 const Especialidades = () => {
+  
+
   const [selectedCard, setSelectedCard] = useState(0);
 
   const handleButtonClick = (index) => {

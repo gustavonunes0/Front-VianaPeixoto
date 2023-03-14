@@ -1,6 +1,7 @@
 import * as S from "./styles";
 
 const InMemorian = () => {
+
   return (
     <S.InMemorianContainer>
       <S.IMLeftColor />

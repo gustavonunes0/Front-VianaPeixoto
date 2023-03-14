@@ -7,6 +7,8 @@ import MainBanner from "./MainBanner";
 import Presentation from "./Presentation";
 
 const Sobre = () => {
+  
+
   return (
     <>
       <MiniHeader />

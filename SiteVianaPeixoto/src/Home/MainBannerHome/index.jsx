@@ -3,22 +3,6 @@ import { useState } from 'react';
 
 const MainBanner = () => {
 
-  (function(s, z, c, h, a, t) {
-    s.webchat = s.webchat || function() {
-      (s.webchat.q = s.webchat.q || []).push(arguments);
-    };
-    t = z.createElement(c),
-      a = z.getElementsByTagName(c)[0]; t.async = 1;
-    t.src = 'https://vianapeixoto.wiserchannel.com.br/webchat/v2/webchat.js'; 
-    a.parentNode.insertBefore(t, a);
-    s.webchat('cid', '640f7cb6ff5e97001f8be086');
-    s.webchat('host', h);
-  })(window, document, 'script', 'https://vianapeixoto.wiserchannel.com.br');
-
-  window.addEventListener("message", function(event) {
-    if(event.origin !== 'https://vianapeixoto.wiserchannel.com.br') return;
-  },false);
-
   const [display, setDisplay] = useState('none');
 
   function handleClick() {

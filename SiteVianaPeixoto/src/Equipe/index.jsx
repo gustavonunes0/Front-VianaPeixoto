@@ -4,6 +4,9 @@ import MiniHeader from "../shared/MiniHeader";
 import Presentation from "./Presentation";
 
 const Equipe = () => {
+  
+
+
   return (
     <>
       <MiniHeader />

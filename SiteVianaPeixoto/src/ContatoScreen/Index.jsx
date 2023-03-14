@@ -4,6 +4,8 @@ import MiniHeader from "../shared/MiniHeader";
 import FaleConosco from "./FaleConosco";
 
 const ContatoScreen = () => {
+  
+
   return (
     <>
       <MiniHeader />
