@@ -6,6 +6,7 @@ import Home from "./Home";
 import Sobre from "./Sobre";
 import Equipe from "./Equipe";
 import Especialidades from "./Especialidades";
+import Dashboard from "./Dashboard";
 
 const router = createBrowserRouter([
   { path: "*", element: <Home /> },
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
   { path: "/especialidades", element: <Especialidades /> },
   { path: "/imprensa", element: <Sobre /> },
   { path: "/contato", element: <Sobre /> },
+  { path: "/dashboard", element: <Dashboard /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
