@@ -55,6 +55,7 @@ export const BoxValor = styled.div`
     font-size: 1.1rem;
     color: #fff;
     width: 100%;
+    height: 9rem;
     background-color: #6c808c;
     border: 2px solid #8a9dbd;
     text-align: start;

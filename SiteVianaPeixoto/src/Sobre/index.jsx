@@ -11,8 +11,8 @@ const Sobre = () => {
     <>
       <MiniHeader />
       <Header />
-      <Valores />
       <InMemorian />
+      <Valores />
       <Presentation />
       <MainBanner />
       <Footer />
