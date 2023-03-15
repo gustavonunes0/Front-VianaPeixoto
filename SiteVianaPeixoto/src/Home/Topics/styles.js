@@ -17,7 +17,6 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-bottom: -25%;
   padding: 25% 10% 10% 10%;
 
   &:hover{
@@ -29,7 +28,6 @@ export const ContentFirst = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-bottom: -25%;
   padding: 25% 10% 10% 10%;
 
   &:hover{

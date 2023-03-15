@@ -40,17 +40,17 @@ const Presentation = () => {
           <Partners
             image={"/fotos/DavidSombra.png"}
             name="David Sombra Peixoto"
-            position="Diretor Presidente"
+            position="Diretor"
           />
           <Partners
             image={"/fotos/JoaoPaulo.png"}
             name="João Paulo Sombra Peixoto"
-            position="Diretor Comercial"
+            position="Diretor"
           />
           <Partners
             image={"/fotos/JoseLuis.png"}
             name="José Luís Melo Garcia"
-            position="Diretor Financeiro"
+            position="Diretor"
           />
         </S.PresentationPartnersBox>
       </S.PresentationBox>

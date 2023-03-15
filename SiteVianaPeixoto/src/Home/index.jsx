@@ -20,7 +20,6 @@ const Home = () => {
         <Header />
         <MainBanner />
         <Topics scrollToTop={scrollToTop} />
-        <SecondBanner scrollToTop={scrollToTop} />
         <Footer />
       </>
     );
