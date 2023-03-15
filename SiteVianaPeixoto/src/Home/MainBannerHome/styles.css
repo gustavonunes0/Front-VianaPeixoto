@@ -26,6 +26,7 @@
 #trianguloParaEsquerda {
   width: 0;
   height: 0;
+  margin-left: 2rem;
   border-top: 1rem solid transparent;
   border-bottom: 1rem solid transparent;
   border-right: 1rem solid white;
