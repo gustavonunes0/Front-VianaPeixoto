@@ -10,17 +10,17 @@ const Imprensa = () => {
 
   const cardsData = [
     {
-      foto: "/fotos/Socio1.jpg",
+      foto: "",
       title: "Aqui segue o titulo do texto",
       text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
     },
     {
-      foto: "/fotos/Socio2.jpg",
+      foto: "/fotos/VPSitefoto1.jpg",
       title: "Aqui segue o titulo do texto",
       text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
     },
     {
-      foto: "/fotos/Socio3.jpg",
+      foto: "/fotos/VPSitefoto1.jpg",
       title: "Aqui segue o titulo do texto",
       text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
     },
@@ -31,6 +31,9 @@ const Imprensa = () => {
       <MiniHeader />
       <Header />
       <div style={{backgroundColor: '#adbfd0', textAlign: '-webkit-center', padding: '4%'}}>
+        <S.PremioContainer>
+            <S.Premio src="/fotos/VPSitefoto4.jpg"/>
+        </S.PremioContainer>
         {cardsData.map((card, index) => (
           <Cards
             key={index}

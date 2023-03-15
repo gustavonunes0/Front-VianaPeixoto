@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MiniHeaderContainer = styled.header`
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   background-color: #472e8d;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@ export const LogoIcons = styled.img`
   margin-right: -1.5rem;
 `;
 export const LogoSocials = styled.img`
-  width: 1.20rem;
+  width: 1.6rem;
   margin: 0.7rem;
 `;
 

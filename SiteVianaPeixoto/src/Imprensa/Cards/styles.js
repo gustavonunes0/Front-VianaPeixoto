@@ -22,6 +22,7 @@ export const CardsInfo = styled.div`
   text-align: justify;
   display: grid;
   grid-template-columns: ${props => props.hasFoto ? '30% 70%' : '100%'};
+  padding-top:  ${props => props.hasFoto ? '0%' : '3%'};;
   @media screen and (max-width: 800px) {
     grid-template-columns: 100%;  
   }
@@ -30,6 +31,7 @@ export const CardBox = styled.div`
   width: 100%;
   place-self: center;
   padding-right: 7%;
+  padding-left: 4%;
   @media screen and (max-width: 800px) {
     padding: 5%;
   }
@@ -40,13 +42,12 @@ export const CardTitle = styled.div`
 `;
 export const ImgContainer = styled.div`
   height: 15rem;
-  width: 30%;
   @media screen and (max-width: 800px) {
     width: 100%;  
   }
 `;
 export const CardImg = styled.img`
-  height: 100%;
+  width: 100%;
   object-fit: cover;
   @media screen and (max-width: 800px) {
     width: 100%;  

@@ -1,33 +1,53 @@
-import * as S from "./styles";
-import { useState } from 'react';
+import "./styles.css";
+import { useState } from "react";
 
-const MainBanner = () => {
+const NewCarousel = () => {
+  const [testee, setTestee] = useState(0);
 
-  const [display, setDisplay] = useState('none');
+  const lista2 = [
+    "/fotos/VPSitefoto1.png",
+    "/fotos/VPSitefoto2.jpg",
+  ];
 
-  function handleClick() {
-    setDisplay(display === 'none' ? 'block' : 'none');
-  }
-  
+  const avancar = () => {
+    const tamanho = lista2.length - 1;
+    if (testee === tamanho) {
+      setTestee(testee - tamanho);
+    } else {
+      setTestee(testee + 1);
+    }
+  };
+
+  const voltar = () => {
+    const tamanho = lista2.length - 1;
+    if (testee === 0) {
+      setTestee(testee + tamanho);
+    } else {
+      setTestee(testee - 1);
+    }
+  };
+
   return (
-    <S.SobreBannerContainer>
-      <S.ConteudoProvisorio>
-        <span>Com a experiência adquirida ao longo de 35 anos, a sociedade busca exercer igualmente uma advocacia não apenas justa e moderna, mas também significativa e prestativa a seus clientes.</span>
-        <S.TextoSecundario>
-          <p>A história do escritório Viana Peixoto Advogados Associados começa em 1988, com o advogado Miguel Oscar Viana Peixoto (in memoriam). Antes, a empresa chamava-se Pontes Peixoto Advogados e Associados.</p>
-          <p>O jurista, que ocupou importantes cargos no Banco do Brasil (de 1983 até 2006), chegando a exercer a função de Diretor Jurídico nacional da instituição, observou a necessidade de atender as demandas jurídicas da sociedade em Fortaleza.</p>
-          <div style={{ display: display }}>
-            <p>A mudança de nome ocorreu em 20XX, mas a qualidade, a ética e as soluções jurídicas personalizadas para os clientes permaneceram.</p>
-            <p>O escritório Viana Peixoto Advogados Associados caracteriza-se pela gestão nos moldes empresariais, comprometido com o modelo de governança corporativa e política de participação instituída nos lucros e nos resultados.</p>
-            <p>Seu sistema de trabalho é essencialmente informatizado. Isso porque utiliza tecnologia de ponta, garantindo que o trabalho seja prestado de maneira rápida e eficiente, proporcionando ao cliente e aos advogados informações sempre atualizadas e precisas.</p>
-          </div>
-        </S.TextoSecundario>
-        <S.Botao onClick={handleClick}>
-          {display === 'none' ? 'Leia Mais' : 'Mostrar Menos'}
-        </S.Botao>
-      </S.ConteudoProvisorio>
-    </S.SobreBannerContainer>
+      <div id="SCarGalery">
+        <div
+          id="SCarBtnLeft"
+          className="SCarBtn"
+          style={{ marginRight: "-2.5rem" }}
+          onClick={voltar}
+        >
+          <div id="trianguloParaEsquerda"></div>
+        </div>
+        <img id="SCarImg" src={lista2[testee]} alt="IMGS" />
+        <div
+          id="SCarBtnRight"
+          className="SCarBtn"
+          style={{ marginLeft: "-2.5rem" }}
+          onClick={avancar}
+        >
+          <div id="trianguloParaDireita"></div>
+        </div>
+      </div>
   );
 };
 
-export default MainBanner;
+export default NewCarousel;

@@ -79,7 +79,7 @@ export const FooterSubmenuItem = styled.span`
 `;
 
 export const FooterSubmenuSocialMedia = styled.img`
-  width: 1.5rem;
+  width: 2.5rem;
   padding-top: 0.5rem;
 
   &:hover {
