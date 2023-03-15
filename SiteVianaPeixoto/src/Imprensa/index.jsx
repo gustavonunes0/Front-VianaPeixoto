@@ -1,30 +1,28 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Footer from "../shared/Footer";
 import Header from "../shared/Header";
 import MiniHeader from "../shared/MiniHeader";
 import Cards from "./Cards/index.jsx";
+import axios from 'axios';
 import * as S from "./styles";
 
 
 const Imprensa = () => {
+  const [ posts, setPosts] = useState([]);
 
-  const cardsData = [
-    {
-      foto: "",
-      title: "Aqui segue o titulo do texto",
-      text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
-    },
-    {
-      foto: "/fotos/VPSitefoto1.jpg",
-      title: "Aqui segue o titulo do texto",
-      text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
-    },
-    {
-      foto: "/fotos/VPSitefoto1.jpg",
-      title: "Aqui segue o titulo do texto",
-      text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
-    },
-  ];
+
+  useEffect(() => {
+    axios.get(`${import.meta.env.VITE_API_URL}/post`).then((res) => {
+      console.log(res.data.result);
+      setPosts(
+        res.data.result.map((item) => ({
+          foto: item.imageUrl,
+          title: item.title,
+          text1: item.text,
+        }))
+      );
+    });
+  }, []);
 
   return (
     <>
@@ -34,7 +32,7 @@ const Imprensa = () => {
         <S.PremioContainer>
             <S.Premio src="/fotos/VPSitefoto4.jpg"/>
         </S.PremioContainer>
-        {cardsData.map((card, index) => (
+        {posts.map((card, index) => (
           <Cards
             key={index}
             foto={card.foto} 

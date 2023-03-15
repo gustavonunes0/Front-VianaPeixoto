@@ -17,15 +17,19 @@ const Topics = ({ scrollToTop }) => {
                 </Link>
             </S.ContentFirst>
             <S.Content>
+            <Link to="/especialidades"  onClick={scrollToTop} style={{ textDecoration: 'none', color: '#8d9ebc' }}>
                 <S.IconTopics src={"/fotos/IconTopics1.svg"} />
                 <S.IconTitle><p>ESPECIALIDADES</p></S.IconTitle>
                 <S.TopicText><p>No rol de especialidades jurídicas, atuamos em diversas áreas do Direito. São elas: Direito Administrativo; Direito Civil; Direito Comercial; Direito do Trabalho e Processual Trabalhista; Direito Imobiliário; Direito Penal; Direito Previdenciário; Direito Tributário, Ambiental, Internacional.
                     Temos também expertise em recuperação de crédito, seja no âmbito judicial ou extrajudicial.</p></S.TopicText>
+            </Link>
             </S.Content>
             <S.Content>
+            <Link to="/equipe"  onClick={scrollToTop} style={{ textDecoration: 'none', color: '#8d9ebc' }}>
                 <S.IconTopics2 src={"/fotos/IconTopics3.svg"} />
                 <S.IconTitle><p>EQUIPE</p></S.IconTitle>
                 <S.TopicText><p>Contamos com uma equipe formada por profissionais multidisciplinares prontos para melhor defender nossos clientes.</p></S.TopicText>
+            </Link>
             </S.Content>
         </S.Container>
     );

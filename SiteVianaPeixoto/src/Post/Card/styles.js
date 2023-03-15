@@ -55,8 +55,9 @@ export const CardImg = styled.img`
   @media screen and (max-width: 800px) {
   }
 `;
-export const CardText = styled.div`
+export const CardText = styled.pre`
   width: 100%;
+  white-space: pre-wrap;
   font-size: 1.15rem;
   margin-top: 2%;
   padding-left: 4%;
