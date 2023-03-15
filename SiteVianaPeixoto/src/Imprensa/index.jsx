@@ -10,17 +10,17 @@ const Imprensa = () => {
 
   const cardsData = [
     {
-      foto: "/fotos/Socio1.jpg",
+      foto: "",
       title: "Aqui segue o titulo do texto",
       text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
     },
     {
-      foto: "/fotos/Socio2.jpg",
+      foto: "",
       title: "Aqui segue o titulo do texto",
       text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
     },
     {
-      foto: "/fotos/Socio3.jpg",
+      foto: "",
       title: "Aqui segue o titulo do texto",
       text1: "Morbi urna purus, egestas eu vestibulum eget, bibendum vitae eros. Maecenas ut pulvinar eros, a porttitor nisi. Proin commodo euismod luctus. Proin metus neque, mollis eget ex ut, vulputate blandit..."
     },
