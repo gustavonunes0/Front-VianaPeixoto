@@ -1,4 +1,3 @@
-import Partners from "./Partners";
 import Partners2 from "./Partners 2";
 import * as S from "./styles";
 
@@ -7,23 +6,6 @@ const Presentation = () => {
   return (
     <S.PresentationContainer>
       <S.PresentationBox>
-        <S.PresentationPartnersBox>
-          <Partners
-            image={"/fotos/DavidSombra.png"}
-            name="David Sombra Peixoto"
-            position="Diretor"
-          />
-          <Partners
-            image={"/fotos/JoaoPaulo.png"}
-            name="João Paulo Sombra Peixoto"
-            position="Diretor"
-          />
-          <Partners
-            image={"/fotos/JoseLuis.png"}
-            name="José Luís Melo Garcia"
-            position="Diretor"
-          />
-        </S.PresentationPartnersBox>
       <div style={{margin: '10% 0% 0% 0%'}}>
         <S.Titulo><span>NOSSOS ADVOGADOS SÓCIOS</span></S.Titulo>
         <S.SecondPartnersBox>          

@@ -12,7 +12,7 @@ const InMemorian = () => {
           <S.IMContentTitle>História</S.IMContentTitle>
 
           <S.IMContentParag>
-            Fundada pelo Advogado Miguel Oscar Viana Peixoto (in memoriam), a
+            Fundada pelo Advogado Miguel Oscar Viana Peixoto, a
             sociedade VIANA PEIXOTO ADVOGADOS ASSOCIADOS, atual denominação de
             PONTES E PEIXOTO ADVOGADOS ASSOCIADOS, iniciou suas atividades em
             1988. Simultaneamente à atividade que exercia no escritório, o

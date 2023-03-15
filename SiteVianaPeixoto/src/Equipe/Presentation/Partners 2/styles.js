@@ -5,6 +5,7 @@ export const PartnersContainer = styled.div`
   height: 90%;
   display: grid;
   grid-template-columns: 30% 1fr;
+  font-family: TitilliumWeb-Regular, 'Titillium Web';
   @media screen and (max-width: 800px) {
     width: 100%;
     padding-bottom: 15%;
@@ -41,6 +42,7 @@ export const PartnersInfoName = styled.span`
   font-size: 1.7rem;
   font-weight: 800;
   color: #50358f;
+  font-family: Titillium Web-Regular, 'Titillium Web';
   @media screen and (max-width: 800px) {
     font-size: 2.3rem;
   }

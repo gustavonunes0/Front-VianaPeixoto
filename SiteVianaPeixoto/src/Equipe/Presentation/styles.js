@@ -9,6 +9,7 @@ export const PresentationContainer = styled.div`
   background-color: #ebeceb;
   padding-bottom: 7rem;
   place-items: center;
+  font-family: TitilliumWeb-Regular, 'Titillium Web';
 `;
 
 export const PresentationBox = styled.div`

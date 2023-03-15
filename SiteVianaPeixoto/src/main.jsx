@@ -7,6 +7,8 @@ import Sobre from "./Sobre";
 import Equipe from "./Equipe";
 import ContatoScreen from "./ContatoScreen/Index.jsx";
 import Especialidades from "./Especialidades";
+import Imprensa from "./Imprensa";
+import Post from "./Post";
 import Dashboard from "./Dashboard";
 
 const router = createBrowserRouter([
@@ -14,7 +16,8 @@ const router = createBrowserRouter([
   { path: "/sobre", element: <Sobre /> },
   { path: "/equipe", element: <Equipe /> },
   { path: "/especialidades", element: <Especialidades /> },
-  { path: "/imprensa", element: <Sobre /> },
+  { path: "/imprensa", element: <Imprensa /> },
+  { path: "/post", element: <Post /> },
   { path: "/contato", element: <ContatoScreen /> },
   { path: "/dashboard", element: <Dashboard /> },
 ]);

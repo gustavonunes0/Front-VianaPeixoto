@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const CardsContainer = styled.div`
-  width: 80%;
+  width: 100%;
   height: 15rem;
   background-color: #fff;
   align-self: center;
   font-family: TitilliumWeb-Regular, 'Titillium Web';
-  margin-bottom: 2%;
+  margin-top: -2.3%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  align-self: start;
   @media screen and (max-width: 800px) {
     width: 60%;
     height: 100%;
@@ -20,42 +23,32 @@ export const CardsContainer = styled.div`
 export const CardsInfo = styled.div`
   width: 100%;
   text-align: justify;
-  display: grid;
-  grid-template-columns: ${props => props.hasFoto ? '30% 70%' : '100%'};
+  display: flex;
+  flex-direction: column;
   @media screen and (max-width: 800px) {
     grid-template-columns: 100%;  
   }
 `;
-export const CardBox = styled.div`
-  width: 100%;
-  place-self: center;
-  padding-right: 7%;
-  @media screen and (max-width: 800px) {
-    padding: 5%;
-  }
-`;
 export const CardTitle = styled.div`
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 800;
+  padding-left: 4%;
+  padding-right: 4%;
 `;
-export const ImgContainer = styled.div`
-  height: 15rem;
-  width: 30%;
-  @media screen and (max-width: 800px) {
-    width: 100%;  
-  }
+export const CardDate = styled.div`
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
 `;
-export const CardImg = styled.img`
-  height: 100%;
-  object-fit: cover;
-  @media screen and (max-width: 800px) {
-    width: 100%;  
-  }
-`;
+
 export const CardText = styled.div`
   width: 100%;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   margin-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
   @media screen and (max-width: 800px) {
 
   }
@@ -68,6 +61,7 @@ export const Botao = styled.button`
   color: #fff;
   border: none;
   margin-top: 2%;
+  margin-left: 4%;
   @media screen and (max-width: 800px) {
 
   }

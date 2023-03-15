@@ -26,8 +26,17 @@ export const FooterBox = styled.div`
   }
 `;
 
-export const FooterCompanyInfoIcon = styled.img`
+export const BoxFoto = styled.div`
   width: 30%;
+  margin-right: 10%;
+  @media screen and (max-width: 600px) {
+    margin: 0;
+    width: 110%;
+    padding: 5%;
+  }
+`;
+export const FooterCompanyInfoIcon = styled.img`
+  width: 100%;
   margin-right: 10%;
   @media screen and (max-width: 600px) {
     margin: 0;

@@ -7,6 +7,7 @@ export const CardsContainer = styled.div`
   align-self: center;
   padding-top: 3%;
   padding-bottom: 5%;
+  font-family: TitilliumWeb-Regular, 'Titillium Web';
   @media screen and (max-width: 800px) {
 
   }

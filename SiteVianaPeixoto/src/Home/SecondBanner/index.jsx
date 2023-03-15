@@ -9,11 +9,12 @@ const InMemorian = ({ scrollToTop }) => {
             <S.IMContent>
                 <S.IMContentleft>
                     <S.Titulo>
-                        <p>Por quê você deve<br />nos escolher?</p>
+                        <p>Por que escolher <br></br> o VP?</p>
                         <S.TextoSecundario>
-                            <p>Nosso escritório possui tradição no mercado, reputação ilibada, expertise nas mais diversas áreas do Direito e o melhor atendimento aos nossos clientes.</p>
-                            <p>Somos uma empresa que leva em consideração o contato com as pessoas, sobretudo através de uma comunicação clara e capaz de integrar as mais variadas demandas.</p>
-                            <p>Se você e sua empresa prezam por atenção, respeito e celeridade, entre em contato com um de nossos advogados.</p>
+                            <p>Porque é um escritório sedimentado em todos os estados do Brasil, com uma atuação em demandas de baixa, média e alta complexidade.</p>
+                            <p>Nossa expertise é fruto de uma equipe estruturada, com alto desempenho em soluções estratégicas, células próprias para o Direito Bancário, Securitário e Saúde Suplementar.</p>
+                            <p>Temos muito orgulho dos vínculos estabelecidos com cada um de nossos clientes.</p>
+                            <p>Quer saber mais? Já veja as opções de contato conosco.</p>
                         </S.TextoSecundario>
                         <S.Botao>
                             <Link to="/sobre" onClick={scrollToTop} style={{ textDecoration: 'none', color: '#000' }}>

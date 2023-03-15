@@ -47,8 +47,13 @@ export const Botao2 = styled.button`
         color: #6c808c;
     }
 
-    @media screen and (max-width: 800px) {
-        width: 50%;
+    @media screen and (max-width: 800px) {        
+        width: 15rem;
+        margin-left: -30%;
+    }
+    @media screen and (max-width: 600px) {        
+        width: 15rem;
+        margin-left: -100%;
     }
 `;
 export const linkA = styled.a`

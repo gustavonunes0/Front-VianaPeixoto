@@ -8,7 +8,9 @@ const Footer = () => {
   return (
     <S.Footer>
       <S.FooterBox>
-        <S.FooterCompanyInfoIcon src={"/fotos/footerLogo.svg"} alt="logo" />
+        <S.BoxFoto>
+          <p><S.FooterCompanyInfoIcon src={"/fotos/footerLogo.svg"} alt="logo" /></p>
+        </S.BoxFoto>
 
         <S.FooterSubmenu>
           <S.FooterSubmenuTitle>SERVIÇOS</S.FooterSubmenuTitle>

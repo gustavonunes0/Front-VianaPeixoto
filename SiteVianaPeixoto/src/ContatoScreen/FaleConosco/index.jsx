@@ -40,8 +40,9 @@ const FaleConosco = () => {
                     <S.linkA target={'_blank'} href="https://corp-rh.fortestecnologia.com.br/fortesrhpg_recuperacao/externo/prepareListAnuncio.action?empresaId=4">
                         <S.Botao2>TRABALHE CONOSCO</S.Botao2>
                     </S.linkA>
-                    <S.linkA>
-                        <S.Botao2>NEGOCIE SUAS DÍVIDAS</S.Botao2>
+                    <S.linkA target={'_blank'}
+                        href="https://vianapeixoto.wiserchannel.com.br/webchat/v2/?cid=640f7cb6ff5e97001f8be086&host=https://vianapeixoto.wiserchannel.com.br">
+                        <S.Botao2>NEGOCIE SUAS DIVIDAS</S.Botao2>
                     </S.linkA>
                 </div>
             </S.Container>
