@@ -63,7 +63,7 @@ export const CardText = styled.pre`
   padding-left: 4%;
   padding-right: 4%;
   @media screen and (max-width: 800px) {
-
+    width: 100%;
   }
 `;
 export const Botao = styled.button`
