@@ -44,6 +44,9 @@ export const LogoIcons = styled.img`
 export const LogoSocials = styled.img`
   width: 1.6rem;
   margin: 0.7rem;
+    &:hover {
+    filter: brightness(0.1);
+  }
 `;
 
 export const MiniMenu = styled.nav`
