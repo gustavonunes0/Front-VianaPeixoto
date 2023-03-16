@@ -124,6 +124,7 @@ const Dashboard = () => {
       const formData = new FormData();
       formData.append("title", titulo);
       formData.append("text", texto);
+      formData.append("userId", user.id);
       if (imagem) formData.append("imagem", imagem);
 
       axios
@@ -276,11 +277,13 @@ const Dashboard = () => {
                     id="cars"
                     onChange={(e) => {
                       const postt = JSON.parse(e.target.value);
+                      console.log(postt);
                       setSelectedPost(postt.id);
                       setTitulo(postt.title);
                       setTexto(postt.text);
                     }}
                   >
+                    <option></option>
                     {posts.map((post, index) => {
                       return (
                         <option key={index} value={JSON.stringify(post)}>

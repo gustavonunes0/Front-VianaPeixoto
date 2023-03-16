@@ -60,6 +60,15 @@ const Header = () => {
                 CONTATO
               </Link>
             </S.MenuItem>
+
+            <S.MenuItem>
+              <Link
+                to="/dashboard"
+                style={{ textDecoration: "none", color: "#8d9ebc" }}
+              >
+                DASHBOARD
+              </Link>
+            </S.MenuItem>
           </S.Menu>
 
           <SandwichMenu onClick={setOpenModal} />
