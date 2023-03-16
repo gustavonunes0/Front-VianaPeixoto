@@ -7,7 +7,6 @@ export const Botao = styled.button`
   border: 1px solid #adbfd0;
   color: #dbdddb;
   font-weight: 800;
-  font-family: TitilliumWeb-Regular, 'Titillium Web';
   margin-top: 4%;
   &:hover{
     background-color: #472e8d;

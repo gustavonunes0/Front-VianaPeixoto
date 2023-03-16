@@ -51,6 +51,7 @@ export const FooterSubmenu = styled.span`
   flex-direction: column;
   justify-content: start;
   gap: 0.2rem;
+  margin-bottom: 2%;
 
   color: white;
   @media screen and (max-width: 600px) {
@@ -68,7 +69,6 @@ export const FooterSubmenuTitle = styled.span`
 export const FooterSubmenuItem = styled.span`
   font-size: 1.2rem;
   color: #b9c6d7;
-
   display: flex;
   gap: 1.8rem;
 
