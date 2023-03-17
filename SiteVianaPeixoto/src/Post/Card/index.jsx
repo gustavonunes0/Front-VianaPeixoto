@@ -1,5 +1,4 @@
 import * as S from "./styles";
-import { Link } from "react-router-dom";
 
 const Cards = ({ foto, title, date, text1, author }) => {
   return (

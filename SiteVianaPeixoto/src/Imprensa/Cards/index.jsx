@@ -1,12 +1,12 @@
 import * as S from "./styles";
 import { Link } from "react-router-dom";
 
-const Cards = ({ foto, title, text1, id }) => {
+const Cards = ({ foto, title, text1, postId }) => {
   return (
     <>
       <S.CardsContainer>
         <S.CardsInfo hasFoto={!!foto}>
-          <S.ImgContainer style={{ display: foto != "" ? "flex" : "none" }}>
+          <S.ImgContainer style={{ display: foto ? "flex" : "none" }}>
             <S.CardImg src={foto} />
           </S.ImgContainer>
           <S.CardBox>
@@ -14,7 +14,7 @@ const Cards = ({ foto, title, text1, id }) => {
             <S.CardText>
               <p>{text1}</p>
             </S.CardText>
-            <Link to={`/post/${id}`}>
+            <Link to={`/post/${postId}`}>
               <S.Botao>Veja Mais</S.Botao>
             </Link>
           </S.CardBox>

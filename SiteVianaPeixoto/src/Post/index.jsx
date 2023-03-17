@@ -10,8 +10,8 @@ import axios from "axios";
 
 const Post = () => {
   const [post, setPost] = useState({});
+  const [lastPost, setLastPost] = useState({});
   const { postId } = useParams();
-  console.log(postId);
 
   useEffect(() => {
     axios
@@ -20,6 +20,11 @@ const Post = () => {
         console.log(res.data.result[0]);
         setPost(res.data.result[0]);
       });
+
+    axios.get(`${import.meta.env.VITE_API_URL}/post`).then((res) => {
+      const list = res.data.result;
+      setLastPost(res.data.result[list.length - 1]);
+    });
   }, []);
 
   return (
@@ -35,11 +40,10 @@ const Post = () => {
           author={post.authorName}
         />
         <LastPosts
-          date={"14 de Março de 2023"}
-          title={"Aqui segue o titulo do texto"}
-          text1={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin semper sollicitudin. Donec elementum suscipit ligula. Aliquam non dapibus ipsum. Sed auctor tempor odio in sodales. Phasellus tincidunt ipsum nec erat rutrum, sit amet iaculis sapien pellentesque."
-          }
+          date={new Date(lastPost.createdAt).toLocaleString()}
+          title={lastPost.title}
+          text1={lastPost.text}
+          id={lastPost.id}
         />
       </S.Container>
       <Footer />

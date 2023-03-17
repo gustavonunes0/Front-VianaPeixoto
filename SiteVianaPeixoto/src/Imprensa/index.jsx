@@ -10,16 +10,15 @@ const Imprensa = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get(`${import.meta.env.VITE_API_URL}/post`).then((res) => {
-      console.log(res.data.result);
-      setPosts(
-        res.data.result.map((item) => ({
-          foto: item.imageUrl,
-          title: item.title,
-          text1: item.text,
-        }))
-      );
-    });
+    axios
+      .get(`${import.meta.env.VITE_API_URL}/post`)
+      .then((res) => {
+        console.log(res.data.result);
+        setPosts(res.data.result);
+      })
+      .catch((err) => {
+        console.log("erro");
+      });
   }, []);
 
   return (
@@ -36,15 +35,22 @@ const Imprensa = () => {
         <S.PremioContainer>
           <S.Premio src="/fotos/VPSitefoto4.jpg" />
         </S.PremioContainer>
-        {posts.map((card, index) => (
-          <Cards
-            key={index}
-            foto={card.foto}
-            title={card.title}
-            text1={card.text1}
-            id={card.id}
-          />
-        ))}
+        {posts &&
+          posts
+            .filter((post) => post.title)
+            .map((card, index) => {
+              if (card.title) {
+                return (
+                  <Cards
+                    key={index}
+                    foto={card.imageUrl}
+                    title={card.title}
+                    text1={card.text}
+                    postId={card.id}
+                  />
+                );
+              }
+            })}
       </div>
       <Footer />
     </>

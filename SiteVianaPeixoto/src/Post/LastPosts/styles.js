@@ -5,7 +5,7 @@ export const CardsContainer = styled.div`
   height: 15rem;
   background-color: #fff;
   align-self: center;
-  font-family: TitilliumWeb-Regular, 'Titillium Web';
+  font-family: TitilliumWeb-Regular, "Titillium Web";
   margin-top: -2.3%;
   padding-top: 2%;
   padding-bottom: 4%;
@@ -26,7 +26,7 @@ export const CardsInfo = styled.div`
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 800px) {
-    grid-template-columns: 100%;  
+    grid-template-columns: 100%;
   }
 `;
 export const CardTitle = styled.div`
@@ -49,8 +49,14 @@ export const CardText = styled.div`
   margin-top: 2%;
   padding-left: 4%;
   padding-right: 4%;
-  @media screen and (max-width: 800px) {
 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
+  @media screen and (max-width: 800px) {
   }
 `;
 export const Botao = styled.button`
@@ -63,6 +69,5 @@ export const Botao = styled.button`
   margin-top: 2%;
   margin-left: 4%;
   @media screen and (max-width: 800px) {
-
   }
 `;
