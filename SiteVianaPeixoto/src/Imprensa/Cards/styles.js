@@ -8,11 +8,12 @@ export const CardsContainer = styled.div`
   font-family: TitilliumWeb-Regular, "Titillium Web";
   margin-bottom: 2%;
   @media screen and (max-width: 800px) {
-    width: 60%;
+    width: 80%;
     height: 100%;
+    margin-bottom: 7%;
   }
-  @media screen and (max-width: 800px) {
-    width: 75%;
+  @media screen and (max-width: 600px) {
+    width: 100%;
     height: 100%;
     margin-bottom: 7%;
   }
@@ -44,6 +45,8 @@ export const CardBox = styled.div`
 export const CardTitle = styled.div`
   font-size: 2.5rem;
   font-weight: 800;
+  margin-top: 2%;
+
 `;
 export const ImgContainer = styled.div`
   height: 15rem;
@@ -62,8 +65,6 @@ export const CardImg = styled.img`
 export const CardText = styled.div`
   width: 100%;
   font-size: 0.95rem;
-  margin-top: 2%;
-
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;

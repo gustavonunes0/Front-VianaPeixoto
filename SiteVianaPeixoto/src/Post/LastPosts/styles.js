@@ -11,13 +11,10 @@ export const CardsContainer = styled.div`
   padding-bottom: 4%;
   align-self: start;
   @media screen and (max-width: 800px) {
-    width: 60%;
-    height: 100%;
-  }
-  @media screen and (max-width: 800px) {
-    width: 75%;
-    height: 100%;
-    margin-bottom: 7%;
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 3%;
+    margin-top: 3%;
   }
 `;
 export const CardsInfo = styled.div`
@@ -69,5 +66,6 @@ export const Botao = styled.button`
   margin-top: 2%;
   margin-left: 4%;
   @media screen and (max-width: 800px) {
+    width: 8.5rem;
   }
 `;

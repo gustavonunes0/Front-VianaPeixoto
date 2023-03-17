@@ -10,13 +10,10 @@ export const CardsContainer = styled.div`
   padding-top: 2%;
   padding-bottom: 4%;
   @media screen and (max-width: 800px) {
-    width: 60%;
+    width: 100%;
     height: 100%;
-  }
-  @media screen and (max-width: 800px) {
-    width: 75%;
-    height: 100%;
-    margin-bottom: 7%;
+    margin-top: 10%;
+    margin-bottom: 5%;
   }
 `;
 export const CardsInfo = styled.div`

@@ -7,7 +7,7 @@ const Cards = ({ foto, title, date, text1, author }) => {
         <S.CardsInfo>
           <S.CardTitle>{title}</S.CardTitle>
           <S.CardDate>{date}</S.CardDate>
-          <S.ImgContainer style={{ display: foto != "" ? "flex" : "none" }}>
+          <S.ImgContainer style={{ display: foto != undefined ? "flex" : "none" }}>
             <S.CardImg src={foto} />
           </S.ImgContainer>
           <S.CardText>

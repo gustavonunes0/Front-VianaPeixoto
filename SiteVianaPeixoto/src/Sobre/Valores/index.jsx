@@ -25,7 +25,7 @@ const MainBanner = () => {
         </S.BoxValor>
         <S.BoxValor>
             <S.Valor>ESPIRITO DE EQUIPE</S.Valor>
-            <S.Texto>IUnião, construção e sucesso entre colaboradores, clientes e parceiros.</S.Texto>
+            <S.Texto>União, construção e sucesso entre colaboradores, clientes e parceiros.</S.Texto>
         </S.BoxValor>
         <S.BoxValor>
             <S.Valor>ENTUSIASMO</S.Valor>

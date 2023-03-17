@@ -7,6 +7,7 @@ import * as S from "./styles";
 import {Link} from "react-router-dom";
 
 const Header = () => {
+    
     return (
         <S.MiniHeaderContainer>
             <S.MiniHeaderBox>
@@ -28,13 +29,7 @@ const Header = () => {
                         <S.LogoIcons src={"/fotos/email.svg"}
                             alt="Logo"/>
                         <S.MiniMenuItem>
-                            <Link to="/sobre"
-                                style={
-                                    {
-                                        textDecoration: 'none',
-                                        color: '#edeeed'
-                                    }
-                            }>contato@vianapeixoto.com.br</Link>
+                            <a href="" mailto='contato@vianapeixoto.com.br'  style={{textDecoration: 'none', color: '#edeeed'}}>contato@vianapeixoto.com.br</a>
                         </S.MiniMenuItem>
                     </S.MiniMenu>
                 </S.BoxSetor1>
