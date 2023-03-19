@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-mailto": "^0.4.0",
     "react-router-dom": "^6.8.2",
+    "rsuite": "^5.28.3",
     "serve": "^14.2.0",
     "styled-components": "^5.3.8"
   },

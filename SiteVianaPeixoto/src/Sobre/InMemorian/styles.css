@@ -1,0 +1,73 @@
+.tituloHistoria{
+  font-size: 4rem;
+  color: #472E8D;
+  font-weight: 800;
+}
+
+.timeline {
+  list-style-type: none;
+  position: relative;
+  padding: 50px auto;
+  max-width: 800px;  
+  margin-top: 5%;
+}
+
+.timeline-content{
+  font-size: 0.9rem;
+}
+
+.timeline-left .timeline-content {
+  margin-left: auto;
+  text-align: right;
+  margin-right: 29rem;
+  height: 7rem;
+}
+
+.timeline-right .timeline-content {
+  margin-right: auto;
+  text-align: left;
+  margin-left: 29rem;
+  height: 7rem;
+}
+
+.dot {
+  height: 5rem;
+  width: 5rem;
+  background-color: #472E8D;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 5rem;
+  color: white;
+}
+
+.line {
+  width: 2px;
+  height: 10rem;
+  background-color: #472E8D;
+  position: absolute;
+  top: 47%; /* posiciona a linha na metade da altura dos círculos */
+  left: 48.4%;
+  margin-left: 12px; /* afasta a linha do círculo em 12px */
+}
+
+
+
+.timeline li {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.timeline li:last-child {
+  margin-bottom: 0;
+}
+
+
+.timeline li:first-child::before {
+  border-color: transparent;
+}
