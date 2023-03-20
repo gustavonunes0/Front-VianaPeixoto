@@ -21,6 +21,7 @@
   text-align: right;
   margin-right: 29rem;
   height: 7rem;
+
 }
 
 .timeline-right .timeline-content {
@@ -44,6 +45,7 @@
   text-align: center;
   line-height: 5rem;
   color: white;
+  font-size: 1.3rem;
 }
 
 .line {
@@ -51,9 +53,9 @@
   height: 10rem;
   background-color: #472E8D;
   position: absolute;
-  top: 47%; /* posiciona a linha na metade da altura dos círculos */
+  top: 47%;
   left: 48.4%;
-  margin-left: 12px; /* afasta a linha do círculo em 12px */
+  margin-left: 12px;
 }
 
 

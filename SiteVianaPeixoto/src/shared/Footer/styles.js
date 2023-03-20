@@ -27,7 +27,7 @@ export const FooterBox = styled.div`
 `;
 
 export const BoxFoto = styled.div`
-  width: 30%;
+  width: 34%;
   margin-right: 10%;
   @media screen and (max-width: 600px) {
     margin: 0;
