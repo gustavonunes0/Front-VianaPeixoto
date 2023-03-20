@@ -8,12 +8,13 @@
   list-style-type: none;
   position: relative;
   padding: 50px auto;
-  max-width: 800px;  
+  max-width: 51rem;  
   margin-top: 5%;
 }
 
 .timeline-content{
   font-size: 0.9rem;
+  padding-top: 0.8rem;
 }
 
 .timeline-left .timeline-content {
@@ -32,25 +33,25 @@
 }
 
 .dot {
-  height: 5rem;
-  width: 5rem;
+  height: 4rem;
+  width: 4rem;
   background-color: #472E8D;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  top: 20px;
+  top: 1.4rem;
   z-index: 1;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  line-height: 5rem;
+  line-height: 4rem;
   color: white;
   font-size: 1.3rem;
 }
 
 .line {
   width: 2px;
-  height: 10rem;
+  height: 9rem;
   background-color: #472E8D;
   position: absolute;
   top: 47%;
@@ -62,7 +63,7 @@
 
 .timeline li {
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .timeline li:last-child {
@@ -72,4 +73,66 @@
 
 .timeline li:first-child::before {
   border-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .timeline {
+    list-style-type: none;
+    position: relative;
+    padding: 50px auto;
+    max-width: 51rem;  
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .timeline-content{
+    width: 13rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline-left .timeline-content {
+    margin-right: auto;
+    text-align: right;
+    margin-left: -5.5em;
+    height: 7rem;
+    width: 10rem;
+    font-size: 0.6rem;
+  }
+  
+  .timeline-right .timeline-content {
+    margin-right: auto;
+    text-align: left;
+    margin-left: 11rem;
+    height: 7rem;
+    width: 10rem;
+    font-size: 0.6rem;
+  }
+  .dot {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #472E8D;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 1.4rem;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 3.5rem;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .line {
+    width: 3px;
+    height: 9rem;
+    background-color: #472E8D;
+    position: absolute;
+    top: 47%;
+    left: 45.4%;
+    margin-left: 12px;
+  }
+  
 }

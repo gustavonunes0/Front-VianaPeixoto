@@ -13,9 +13,36 @@ const Footer = () => {
                 <S.FooterSubmenu>
                     <S.FooterSubmenuTitle>SERVIÇOS</S.FooterSubmenuTitle>
 
-                    <S.FooterSubmenuItem>Direito Securitário</S.FooterSubmenuItem>
-                    <S.FooterSubmenuItem>Saúde Suplementar</S.FooterSubmenuItem>
-                    <S.FooterSubmenuItem>Direito Bancário</S.FooterSubmenuItem>
+                    <S.FooterSubmenuItem>
+                        <Link to="/especialidades"
+                            style={
+                                {
+                                    textDecoration: "none",
+                                    color: "#b9c6d7"
+                                }
+                        }>
+                            Direito Securitário
+                        </Link></S.FooterSubmenuItem>
+                    <S.FooterSubmenuItem>
+                        <Link to="/especialidades"
+                            style={
+                                {
+                                    textDecoration: "none",
+                                    color: "#b9c6d7"
+                                }
+                        }>
+                            Saúde Suplementar
+                        </Link></S.FooterSubmenuItem>
+                    <S.FooterSubmenuItem>
+                        <Link to="/especialidades"
+                            style={
+                                {
+                                    textDecoration: "none",
+                                    color: "#b9c6d7"
+                                }
+                        }>
+                            Direito Bancário
+                        </Link></S.FooterSubmenuItem>
                 </S.FooterSubmenu>
 
                 <S.FooterSubmenu>
