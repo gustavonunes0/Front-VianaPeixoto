@@ -30,7 +30,7 @@ const Header = () => {
             </S.MenuItem>
             <S.MenuItem>
               <Link
-                to="/equipe"
+                to="/"
                 style={{ textDecoration: "none", color: "#8d9ebc" }}
               >
                 NOSSA EQUIPE
