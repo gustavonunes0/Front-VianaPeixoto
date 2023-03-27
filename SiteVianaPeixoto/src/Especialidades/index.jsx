@@ -42,7 +42,7 @@ const Especialidades = () => {
       <Header />
       <div style={{backgroundColor: '#adbfd0', textAlign: '-webkit-center', padding: '4%'}}>
         <S.Titulo>NOSSAS ESPECIALIDADES</S.Titulo>
-        <div>
+        <div style={{display: 'flex', placeContent: 'center'}}>
           {cards.map((card, index) => (
             <S.Botao key={index}
             onClick={() => handleButtonClick(index)}
