@@ -3,13 +3,12 @@ import styled from "styled-components";
 export const PartnersContainer = styled.div`
   width: 100%;
   height: 90%;
-  display: grid;
-  grid-template-columns: 30% 1fr;
+  display: flex;
+  flex-direction: column;
   font-family: TitilliumWeb-Regular, 'Titillium Web';
   @media screen and (max-width: 800px) {
     width: 100%;
     padding-bottom: 15%;
-    grid-template-columns: 1fr;
   }
 `;
 
@@ -32,7 +31,7 @@ export const PartnersInfo = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   padding: 5%;
   gap: 0.5rem;
   
@@ -41,7 +40,7 @@ export const PartnersInfo = styled.div`
 export const PartnersInfoName = styled.span`
   font-size: 1.7rem;
   font-weight: 800;
-  color: #50358f;
+  color: #758592;
   font-family: Titillium Web-Regular, 'Titillium Web';
   @media screen and (max-width: 800px) {
     font-size: 2.3rem;
@@ -58,6 +57,7 @@ export const PartnersInfoPosition = styled.span`
 export const PartnersInfoEmail = styled.span`
   font-size: 1rem;
   font-weight: 800;
+  color: #758592;
   @media screen and (max-width: 1000px) {
     font-size: 1.5rem;
   }

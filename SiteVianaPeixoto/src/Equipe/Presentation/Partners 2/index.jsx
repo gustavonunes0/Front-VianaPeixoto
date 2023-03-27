@@ -8,7 +8,7 @@ const Partners = ({image, name, text, email}) => {
           </S.containerIMG>
             <S.PartnersInfo>
                 <S.PartnersInfoName> <p>{name}</p></S.PartnersInfoName>
-                <S.PartnersInfoPosition> <p>{text}</p></S.PartnersInfoPosition>
+                {/* <S.PartnersInfoPosition> <p>{text}</p></S.PartnersInfoPosition> */}
                 <S.PartnersInfoEmail> <p>{email}</p></S.PartnersInfoEmail>
             </S.PartnersInfo>
         </S.PartnersContainer>

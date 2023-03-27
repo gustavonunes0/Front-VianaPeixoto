@@ -20,7 +20,7 @@ sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus ma
 Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
 Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
 ut arcu. "
-            email="email@vianapeixoto.com.br"
+            email="felipe.bayma@vianapeixoto.com.br"
           />
           <Partners2
             image={"/fotos/Socio5.jpg"}
@@ -33,7 +33,7 @@ sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus ma
 Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
 Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
 ut arcu. "
-            email="email@vianapeixoto.com.br"
+            email="mayara@vianapeixoto.com.br"
           />
           <Partners2
             image={"/fotos/Socio4.jpg"}
@@ -46,7 +46,7 @@ sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus ma
 Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
 Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
 ut arcu. "
-            email="email@vianapeixoto.com.br"
+            email="nathalia@vianapeixoto.com.br"
           />
           <Partners2
             name="Francisco Sena"
@@ -59,7 +59,7 @@ sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus ma
 Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
 Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
 ut arcu. "
-            email="email@vianapeixoto.com.br"
+            email="sena@vianapeixoto.com.br"
           />
           <Partners2
             image={"/fotos/Socio2.jpg"}
@@ -72,7 +72,7 @@ sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus ma
 Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
 Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
 ut arcu. "
-            email="email@vianapeixoto.com.br"
+            email="juliana@vianapeixoto.com.br"
           />
           <Partners2
             image={"/fotos/Socio1.jpg"}
@@ -85,7 +85,7 @@ sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus ma
 Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
 Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
 ut arcu. "
-            email="email@vianapeixoto.com.br"
+            email="nayhara@vianapeixoto.com.br"
           />
           <Partners2
             image={"/fotos/Socio7.jpg"}
@@ -98,7 +98,7 @@ sem. Phasellus placerat blandit massa nec tempor. Quisque pellentesque tempus ma
 Integer elementum, augue sed varius sollicitudin, nunc tortor blandit velit, sed venenatis est dui ac nisl.
 Sed a rutrum ex. Cras sit amet sollicitudin est. Vivamus est turpis, maximus eget eleifend ac, tincidunt
 ut arcu. "
-            email="email@vianapeixoto.com.br"
+            email="priscila@vianapeixoto.com.br"
           />
         </S.SecondPartnersBox>
         </div>

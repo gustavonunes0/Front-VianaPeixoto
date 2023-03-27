@@ -44,11 +44,11 @@ export const PresentationPartnersBox = styled.div`
 export const SecondPartnersBox = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-top: 5%;
   @media screen and (max-width: 800px) {
-    display:grid;
-    gris-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 `;

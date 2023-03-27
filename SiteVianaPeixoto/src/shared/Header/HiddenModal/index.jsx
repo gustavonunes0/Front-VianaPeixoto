@@ -20,7 +20,7 @@ const HiddenModal = ({ open, back }) => {
         </S.HeaderModalMenuItems>
         <S.HeaderModalMenuItems>
           <Link
-            to="/"
+            to="/equipe"
             style={{ textDecoration: "none", color: "#8d9ebc" }}
           >
             NOSSA EQUIPE
