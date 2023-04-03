@@ -5,7 +5,7 @@ const NewCarousel = () => {
   const [testee, setTestee] = useState(0);
 
   const lista2 = [
-    "/fotos/VPSitefoto1.png",
+    "/fotos/VPSitefoto1.jpg",
     "/fotos/VPSitefoto2.jpg",
   ];
 
