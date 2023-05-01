@@ -5,6 +5,7 @@ import MainBanner from "./MainBannerHome";
 import Topics from "./Topics";
 import SecondBanner from "./SecondBanner";
 import React, { useRef } from "react";
+import CookieConsent from "./Cookies";
 
 const Home = () => {
   
@@ -16,6 +17,7 @@ const Home = () => {
     return (
       <>
         <div ref={topRef}></div>
+        <CookieConsent/>
         <MiniHeader />
         <Header />
         <MainBanner />

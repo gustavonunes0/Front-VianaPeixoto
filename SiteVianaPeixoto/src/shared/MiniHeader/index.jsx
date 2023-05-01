@@ -16,20 +16,14 @@ const Header = () => {
                         <S.LogoIcons src={"/fotos/telefone.svg"}
                             alt="Logo"/>
                         <S.MiniMenuItem>
-                            <Link to="/"
-                                style={
-                                    {
-                                        textDecoration: 'none',
-                                        color: '#edeeed'
-                                    }
-                            }>(85) 3033-6161</Link>
+                            <a href="tel:+558530336161" style={{textDecoration: 'none', color: '#edeeed'}}>(85) 3033-6161</a>
                         </S.MiniMenuItem>
                     </S.MiniMenu>
                     <S.MiniMenu>
                         <S.LogoIcons src={"/fotos/email.svg"}
                             alt="Logo"/>
                         <S.MiniMenuItem>
-                            <a href="" mailto='contato@vianapeixoto.com.br'  style={{textDecoration: 'none', color: '#edeeed'}}>contato@vianapeixoto.com.br</a>
+                            <a href="mailto:contato@vianapeixoto.com.br" style={{textDecoration: 'none', color: '#edeeed'}}>contato@vianapeixoto.com.br</a>
                         </S.MiniMenuItem>
                     </S.MiniMenu>
                 </S.BoxSetor1>

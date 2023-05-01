@@ -9,7 +9,7 @@ const MainBanner = () => {
   return (
     <S.ValoresContainer>
       <S.Titulo>NOSSOS VALORES</S.Titulo>
-      <S.Descricao>Somos comprometicos com a <strong>ética</strong> e a <strong>verdade</strong>. <strong>Integridade</strong>,<strong> , transparência</strong> e <strong>responsabilidade</strong> são os pilares para entregarmos um serviço de <strong>qualidade</strong>. Somos <strong>leais</strong> e promovemos um time diverso, <strong>humanizado</strong> e produtivo, atendendo assim os nossos clientes com foco na geração de resultados.</S.Descricao>
+      <S.Descricao>Somos comprometicos com a <strong>ética</strong> e a <strong>verdade</strong>. <strong>Integridade</strong>,<strong> transparência</strong> e <strong>responsabilidade</strong> são os pilares para entregarmos um serviço de <strong>qualidade</strong>. Somos <strong>leais</strong> e promovemos um time diverso, <strong>humanizado</strong> e produtivo, atendendo assim os nossos clientes com foco na geração de resultados.</S.Descricao>
       <S.GridValores>
         <S.BoxValor>
             <S.Valor>ÉTICA</S.Valor>
