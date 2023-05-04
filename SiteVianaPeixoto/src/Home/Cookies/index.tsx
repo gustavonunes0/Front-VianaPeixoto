@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import * as S from "./styles";
 
 function CookieConsent() {
   const [accepted, setAccepted] = useState(false);
 
+  useEffect(() => {
+    const hasAccepted = localStorage.getItem('cookieConsentAccepted');
+    if (hasAccepted === 'true') {
+      setAccepted(true);
+    }
+  }, []);
+
   function handleAccept() {
     setAccepted(true);
+    localStorage.setItem('cookieConsentAccepted', 'true');
   }
 
   if (accepted) {
